@@ -13,6 +13,34 @@
 
 // add the movies variables here ....
 
+const movie1 = {
+  id: 1,
+  name: "COCO",
+  image:
+    "https://lumiere-a.akamaihd.net/v1/images/p_coco_19736_fd5fa537.jpeg?region=0%2C0%2C540%2C810",
+  rating: 6,
+};
+
+const movie2 = {
+  id: 2,
+  name: "don't look up",
+  image:
+    "https://m.media-amazon.com/images/M/MV5BNzk0OWQzMDQtODg1ZC00Yjg2LWJjYzAtNGRjMjE2M2FlYjZjXkEyXkFqcGdeQXVyMTMzNzIyNDc1._V1_.jpg",
+  rating: 4,
+};
+
+const movie3 = {
+  id: 3,
+  name: "Batman",
+  image:
+    "https://i.pinimg.com/originals/37/ec/34/37ec346f9cd8b1097f2cd821e208e72e.jpg",
+  rating: 4,
+};
+
+console.log(movie1);
+console.log(movie2);
+console.log(movie3);
+
 /** Task 2:
  * Create an array `movies`
  * Add to it the movies that you created on top.
@@ -29,6 +57,32 @@
  *    },
  * ]
  */
+
+movies = [
+  {
+    id: 1,
+    name: "COCO",
+    image:
+      "https://lumiere-a.akamaihd.net/v1/images/p_coco_19736_fd5fa537.jpeg?region=0%2C0%2C540%2C810",
+    rating: 6,
+  },
+
+  {
+    id: 2,
+    name: "don't look up",
+    image:
+      "https://m.media-amazon.com/images/M/MV5BNzk0OWQzMDQtODg1ZC00Yjg2LWJjYzAtNGRjMjE2M2FlYjZjXkEyXkFqcGdeQXVyMTMzNzIyNDc1._V1_.jpg",
+    rating: 4,
+  },
+
+  {
+    id: 3,
+    name: "Batman",
+    image:
+      "https://i.pinimg.com/originals/37/ec/34/37ec346f9cd8b1097f2cd821e208e72e.jpg",
+    rating: 4,
+  },
+];
 
 /** TASK 3:
  * Create a new file call it `movies.json`
